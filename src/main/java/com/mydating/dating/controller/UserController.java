@@ -33,7 +33,7 @@ public class UserController {
 	//Filter only Female users only
 	@GetMapping("/users/gender/female")
 	public ResponseEntity<?> findAllFemaleUsers(){
-		return userService.findAllFemaleUsers(); 
+		return userService.findAllFemaleUsers();
 	}
 	
 	//Finding best Match for based on id and top best Match
